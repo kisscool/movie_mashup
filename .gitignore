@@ -1,0 +1,13 @@
+## VIM
+*.swp
+# Bundler
+.bundle
+Gemfile.lock
+vendor
+# Saas cache
+.sass-cache
+## Project
+log/*
+config.rb
+# unicorn
+unicorn.conf.rb

@@ -1,0 +1,23 @@
+%html
+  %head
+    %title
+      Mashup Movies - The Program
+    //%link{:rel => 'stylesheet',:href => '/css/spotkick.css'}
+    = @program[MOVIES.first]['css']
+  %body
+    #resultsDiv
+      %table{:id => "results"}
+        %tr
+          %th Details
+          %th Info
+        - if not @program.nil?
+          - MOVIES.each do |value|
+            %tr
+              %td
+                //%img{:src => @program[value]['img']}
+                %center
+                  %a{:href => @program[value]['url'], :title => 'details'} details
+              %td
+                = @program[value]['stats']
+              
+
