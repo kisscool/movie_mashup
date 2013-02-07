@@ -1,7 +1,7 @@
 Movie Mashup
 ============
 
-Quick and dirty personal movie mashup. Nothing to see for normal people.
+Quick and (very) dirty personal movie mashup. Nothing to see for normal people.
 
 Quick install
 ------------
